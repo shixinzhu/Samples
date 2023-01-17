@@ -6,7 +6,7 @@ https://blog.freedom-man.com/salesforce-android-push
 
 {   "appName" : "ConciergeForceHybrid",
     "userIds" : ["0055h000004TmToAAK"],
-    "payload" : "{'badge':0, 'alertTitle': 'How are you', 'alertBody': 'Good'}"
+    "payload" : {"badge":0, "alertTitle": "How are you", "alertBody": "Good"}
 }
 
         SalesforceSDKManager.getInstance().setPushNotificationReceiver(new MyPushNotificationInterface(this));
@@ -21,3 +21,9 @@ https://blog.freedom-man.com/salesforce-android-push
 
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.13.0'
+
+
+{   "appName" : "ConciergeForceHybrid",
+    "userIds" : ["0055h000004TmToAAK"],
+    "payload" : {"badge":0, "alertTitle": "How are you", "alertBody": "Good"}
+}
