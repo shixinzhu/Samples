@@ -11,7 +11,8 @@ https://blog.freedom-man.com/salesforce-android-push
 
         SalesforceSDKManager.getInstance().setPushNotificationReceiver(new MyPushNotificationInterface(this));
 
- // ここに追加する
+    // ここに追加する
+    
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.0'
 
