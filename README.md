@@ -27,3 +27,11 @@ https://blog.freedom-man.com/salesforce-android-push
     "userIds" : ["0055h000004TmToAAK"],
     "payload" : {"badge":0, "alertTitle": "How are you", "alertBody": "Good"}
 }
+
+        <service
+            android:name=".push.PushNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
